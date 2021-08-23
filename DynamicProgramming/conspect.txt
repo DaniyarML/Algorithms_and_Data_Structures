@@ -1,0 +1,4 @@
+Dynamic programming:
+1) Combinatorics: How many? (how many ways to make a change)
+2) Optimization: Maximize or minimize: (what is the minimum steps to get from A to B)
+
