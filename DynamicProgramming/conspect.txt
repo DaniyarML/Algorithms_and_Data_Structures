@@ -2,3 +2,10 @@ Dynamic programming:
 1) Combinatorics: How many? (how many ways to make a change)
 2) Optimization: Maximize or minimize: (what is the minimum steps to get from A to B)
 
+Memoization - cashed results of the computation, and use it later
+
+1) Define objective functions
+2) Identify base cases (starting point)
+3) Write down recurrence relation
+4) Order of computation
+5) Location of the answer
