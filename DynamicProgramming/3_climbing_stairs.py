@@ -15,8 +15,24 @@ def climb(n: int, k: int) -> int:
 
     return dp[n]
 
+# n = int(input())
+# k = int(input())
+# print(climb(n, k))
+
+# optimize space complexity
+
+def climb(n: int, k: int) -> int:
+    dp = [0]*k
+    dp[0] = 1
+
+    for i in range(1, n+1):
+        for j in range(1, k):
+            if i < j:
+                break
+            dp[i%k] += dp[(i-j)%k]
+
+    return dp[n%k]
+
 n = int(input())
 k = int(input())
 print(climb(n, k))
-
-
